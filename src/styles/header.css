@@ -1,0 +1,37 @@
+/*Header*/
+.header {
+  background: #333;
+}
+.navbar {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.cart {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.cart-number {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 0.9rem;
+}
+.cart-number:empty {
+  display: none;
+}
